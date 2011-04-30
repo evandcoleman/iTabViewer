@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BEE2C7136CD78D0029309E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BEE2C6136CD78D0029309E /* Cocoa.framework */; };
+		20BEE2D1136CD78D0029309E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20BEE2CF136CD78D0029309E /* InfoPlist.strings */; };
+		20BEE2D4136CD78D0029309E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEE2D3136CD78D0029309E /* main.m */; };
+		20BEE2D7136CD78D0029309E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20BEE2D5136CD78D0029309E /* Credits.rtf */; };
+		20BEE2DA136CD78D0029309E /* iTabViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEE2D9136CD78D0029309E /* iTabViewerAppDelegate.m */; };
+		20BEE2DD136CD78D0029309E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20BEE2DB136CD78D0029309E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20BEE2C2136CD78D0029309E /* iTabViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTabViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BEE2C6136CD78D0029309E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		20BEE2C9136CD78D0029309E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		20BEE2CA136CD78D0029309E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		20BEE2CB136CD78D0029309E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20BEE2CE136CD78D0029309E /* iTabViewer-Info.plist */ = {isa = PBXFileReference; path = "iTabViewer-Info.plist"; sourceTree = "<group>"; };
+		20BEE2D0136CD78D0029309E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20BEE2D2136CD78D0029309E /* iTabViewer-Prefix.pch */ = {isa = PBXFileReference; path = "iTabViewer-Prefix.pch"; sourceTree = "<group>"; };
+		20BEE2D3136CD78D0029309E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20BEE2D6136CD78D0029309E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		20BEE2D8136CD78D0029309E /* iTabViewerAppDelegate.h */ = {isa = PBXFileReference; path = iTabViewerAppDelegate.h; sourceTree = "<group>"; };
+		20BEE2D9136CD78D0029309E /* iTabViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTabViewerAppDelegate.m; sourceTree = "<group>"; };
+		20BEE2DC136CD78D0029309E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BEE2BF136CD78D0029309E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BEE2C7136CD78D0029309E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20BEE2B7136CD78D0029309E = {
+			isa = PBXGroup;
+			children = (
+				20BEE2CC136CD78D0029309E /* iTabViewer */,
+				20BEE2C5136CD78D0029309E /* Frameworks */,
+				20BEE2C3136CD78D0029309E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20BEE2C3136CD78D0029309E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20BEE2C2136CD78D0029309E /* iTabViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20BEE2C5136CD78D0029309E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20BEE2C6136CD78D0029309E /* Cocoa.framework */,
+				20BEE2C8136CD78D0029309E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20BEE2C8136CD78D0029309E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20BEE2C9136CD78D0029309E /* AppKit.framework */,
+				20BEE2CA136CD78D0029309E /* CoreData.framework */,
+				20BEE2CB136CD78D0029309E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		20BEE2CC136CD78D0029309E /* iTabViewer */ = {
+			isa = PBXGroup;
+			children = (
+				20BEE2D8136CD78D0029309E /* iTabViewerAppDelegate.h */,
+				20BEE2D9136CD78D0029309E /* iTabViewerAppDelegate.m */,
+				20BEE2DB136CD78D0029309E /* MainMenu.xib */,
+				20BEE2CD136CD78D0029309E /* Supporting Files */,
+			);
+			path = iTabViewer;
+			sourceTree = "<group>";
+		};
+		20BEE2CD136CD78D0029309E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20BEE2CE136CD78D0029309E /* iTabViewer-Info.plist */,
+				20BEE2CF136CD78D0029309E /* InfoPlist.strings */,
+				20BEE2D2136CD78D0029309E /* iTabViewer-Prefix.pch */,
+				20BEE2D3136CD78D0029309E /* main.m */,
+				20BEE2D5136CD78D0029309E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20BEE2C1136CD78D0029309E /* iTabViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BEE2E0136CD78D0029309E /* Build configuration list for PBXNativeTarget "iTabViewer" */;
+			buildPhases = (
+				20BEE2BE136CD78D0029309E /* Sources */,
+				20BEE2BF136CD78D0029309E /* Frameworks */,
+				20BEE2C0136CD78D0029309E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTabViewer;
+			productName = iTabViewer;
+			productReference = 20BEE2C2136CD78D0029309E /* iTabViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20BEE2B9136CD78D0029309E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Evan Coleman";
+			};
+			buildConfigurationList = 20BEE2BC136CD78D0029309E /* Build configuration list for PBXProject "iTabViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20BEE2B7136CD78D0029309E;
+			productRefGroup = 20BEE2C3136CD78D0029309E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BEE2C1136CD78D0029309E /* iTabViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20BEE2C0136CD78D0029309E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BEE2D1136CD78D0029309E /* InfoPlist.strings in Resources */,
+				20BEE2D7136CD78D0029309E /* Credits.rtf in Resources */,
+				20BEE2DD136CD78D0029309E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BEE2BE136CD78D0029309E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BEE2D4136CD78D0029309E /* main.m in Sources */,
+				20BEE2DA136CD78D0029309E /* iTabViewerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20BEE2CF136CD78D0029309E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BEE2D0136CD78D0029309E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20BEE2D5136CD78D0029309E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BEE2D6136CD78D0029309E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		20BEE2DB136CD78D0029309E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BEE2DC136CD78D0029309E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20BEE2DE136CD78D0029309E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20BEE2DF136CD78D0029309E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20BEE2E1136CD78D0029309E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTabViewer/iTabViewer-Prefix.pch";
+				INFOPLIST_FILE = "iTabViewer/iTabViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20BEE2E2136CD78D0029309E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTabViewer/iTabViewer-Prefix.pch";
+				INFOPLIST_FILE = "iTabViewer/iTabViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BEE2BC136CD78D0029309E /* Build configuration list for PBXProject "iTabViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BEE2DE136CD78D0029309E /* Debug */,
+				20BEE2DF136CD78D0029309E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BEE2E0136CD78D0029309E /* Build configuration list for PBXNativeTarget "iTabViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BEE2E1136CD78D0029309E /* Debug */,
+				20BEE2E2136CD78D0029309E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20BEE2B9136CD78D0029309E /* Project object */;
+}
