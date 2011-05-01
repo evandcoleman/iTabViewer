@@ -13,6 +13,8 @@
 		20BEE2D7136CD78D0029309E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 20BEE2D5136CD78D0029309E /* Credits.rtf */; };
 		20BEE2DA136CD78D0029309E /* iTabViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEE2D9136CD78D0029309E /* iTabViewerAppDelegate.m */; };
 		20BEE2DD136CD78D0029309E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20BEE2DB136CD78D0029309E /* MainMenu.xib */; };
+		20BEE2E4136CD8A10029309E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BEE2E3136CD8A10029309E /* WebKit.framework */; };
+		20BEE2E7136CDEB60029309E /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BEE2E6136CDEB60029309E /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		20BEE2C9136CD78D0029309E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		20BEE2CA136CD78D0029309E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		20BEE2CB136CD78D0029309E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		20BEE2CE136CD78D0029309E /* iTabViewer-Info.plist */ = {isa = PBXFileReference; path = "iTabViewer-Info.plist"; sourceTree = "<group>"; };
+		20BEE2CE136CD78D0029309E /* iTabViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTabViewer-Info.plist"; sourceTree = "<group>"; };
 		20BEE2D0136CD78D0029309E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		20BEE2D2136CD78D0029309E /* iTabViewer-Prefix.pch */ = {isa = PBXFileReference; path = "iTabViewer-Prefix.pch"; sourceTree = "<group>"; };
+		20BEE2D2136CD78D0029309E /* iTabViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTabViewer-Prefix.pch"; sourceTree = "<group>"; };
 		20BEE2D3136CD78D0029309E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20BEE2D6136CD78D0029309E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		20BEE2D8136CD78D0029309E /* iTabViewerAppDelegate.h */ = {isa = PBXFileReference; path = iTabViewerAppDelegate.h; sourceTree = "<group>"; };
+		20BEE2D8136CD78D0029309E /* iTabViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTabViewerAppDelegate.h; sourceTree = "<group>"; };
 		20BEE2D9136CD78D0029309E /* iTabViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTabViewerAppDelegate.m; sourceTree = "<group>"; };
 		20BEE2DC136CD78D0029309E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20BEE2E3136CD8A10029309E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		20BEE2E5136CDD8A0029309E /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		20BEE2E6136CDEB60029309E /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BEE2E7136CDEB60029309E /* ScriptingBridge.framework in Frameworks */,
+				20BEE2E4136CD8A10029309E /* WebKit.framework in Frameworks */,
 				20BEE2C7136CD78D0029309E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +70,8 @@
 		20BEE2C5136CD78D0029309E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20BEE2E6136CDEB60029309E /* ScriptingBridge.framework */,
+				20BEE2E3136CD8A10029309E /* WebKit.framework */,
 				20BEE2C6136CD78D0029309E /* Cocoa.framework */,
 				20BEE2C8136CD78D0029309E /* Other Frameworks */,
 			);
@@ -82,6 +91,7 @@
 		20BEE2CC136CD78D0029309E /* iTabViewer */ = {
 			isa = PBXGroup;
 			children = (
+				20BEE2E5136CDD8A0029309E /* iTunes.h */,
 				20BEE2D8136CD78D0029309E /* iTabViewerAppDelegate.h */,
 				20BEE2D9136CD78D0029309E /* iTabViewerAppDelegate.m */,
 				20BEE2DB136CD78D0029309E /* MainMenu.xib */,
