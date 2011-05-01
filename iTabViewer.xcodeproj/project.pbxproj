@@ -34,6 +34,7 @@
 		20BEE2E3136CD8A10029309E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		20BEE2E5136CDD8A0029309E /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 		20BEE2E6136CDEB60029309E /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		20BEE2E8136CEAF60029309E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		20BEE2B7136CD78D0029309E = {
 			isa = PBXGroup;
 			children = (
+				20BEE2E8136CEAF60029309E /* README */,
 				20BEE2CC136CD78D0029309E /* iTabViewer */,
 				20BEE2C5136CD78D0029309E /* Frameworks */,
 				20BEE2C3136CD78D0029309E /* Products */,
